@@ -37,9 +37,9 @@ namespace EmployeeRecordLINQVersion.Controllers
                 objemployee.AddEmployee(employee);
 
             }
-             //return RedirectToAction("Create");
+            return RedirectToAction("Create");
             //return RedirectToAction(nameof(Details), new { id = emp.ID });
-           return View();
+           //return View();
         }
 
         public IActionResult FilteredResults()

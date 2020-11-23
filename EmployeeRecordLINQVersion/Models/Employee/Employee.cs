@@ -18,6 +18,7 @@ namespace EmployeeRecordLINQVersion.Models.Employee
         [Required]
         public string City { get; set; }
 
-        //public string Telephone { get; set; }
+        [Required]
+        public string Telephone { get; set; }
     }
 }
